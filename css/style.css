@@ -1,0 +1,82 @@
+
+    body{
+        background-image: linear-gradient(to right, rgba(35, 104, 182, 0), rgb(0, 0, 0));
+        
+    }
+    p{
+        text-align: center;
+        color: white;
+        /* Adding  margin area on the bottom of an element */
+        margin-bottom: 40px;
+    
+    }
+    h1{
+        text-align: center;
+        
+    }
+    div{
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        color:white;
+    }
+    b{
+        color:rgb(230, 224, 36);
+    }
+    img{
+        border-radius: 5%;
+        display: block;
+        border: 1px solid rgb(230, 224, 36);
+    }
+    i{
+        color:rgb(230, 224, 36);
+    }
+    h2{
+        text-align: center;
+    }
+
+    /* The carousel  */
+    .carousel {
+        /* position: relative; */
+        background-color: black;
+      }
+      
+      .carousel__item {
+        height: 300px;
+        background: grey;
+        padding: 1em;
+        font-family: "Quicksand", sans-serif;
+        font-weight: bold;
+        font-size: 2em;
+        color: #ffffff;
+        display: none;
+      }
+      
+      .carousel__item--selected {
+        display: block;
+      }
+      
+      .carousel__nav {
+        width: 100%;
+        padding: 20px 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+      }
+      
+      .carousel__button {
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+      }
+      
+      .carousel__button--selected {
+        background: rgba(255, 255, 255, 0.5);
+      }
+      
