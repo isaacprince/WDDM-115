@@ -38,8 +38,8 @@
 
     /* The carousel  */
     .carousel {
-        /* position: relative; */
-        background-color: black;
+        position: relative;
+        /* background-color: black; */
       }
       
       .carousel__item {
